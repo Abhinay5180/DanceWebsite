@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+   }
+ #logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+  
+ #logo img{
+ height: 42px;
+ filter: invert(1);
+ }
+#navbar{
+    background-color: #a53f3f;
+    padding: 13px 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+}
+#navbar li{
+list-style: none;
+}
+#navbar li  a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 34px;
+    color: white;
+    font-size: 1.4rem;
+}
+#navbar li  a:hover{
+    color:black;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-right: 40px;
+}
+
+.card-img {
+    height:100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height:inherit;
+}
+#introSection{
+height: 420px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+background-color: red;
+background: center/cover no-repeat url("/static/bg.jpg");
+font-family: 'Dancing Script', cursive;
+font-size: 65px;
+opacity: 0.84;
+padding-bottom: 177px;
+}
+#introSection div.small{
+    font-size: 52px;
+}
+
+#sponsorsSection{
+height: 325px;
+background-color: #bb2323;
+}
+#sponsors{
+    height: 272px;
+    max-width: 1000px;
+    margin: auto;
+}
+.sp-img{
+    height: 80%;
+    margin: 20px;
+}
+#missionSection{
+    height: 325px;
+    width:67%;
+    margin:auto;
+}
+#sponsorsSection h2{
+text-align: center;
+padding-top: 13px;
+font-family: 'Dancing Script', cursive;
+font-size: 36px;
+}
+#missionSection h2{
+    text-align: center;
+padding-top: 13px;
+font-family: 'Dancing Script', cursive;
+font-size: 36px;
+}
+.card{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 15px;
+    height: 233px;
+    display: inline-block;
+}
+.card h3 {
+    text-align: center;
+    margin: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
